@@ -1,13 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "status-bar.css";
+/* screens */
+@import "login.css";
+
+
+ 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.status-bar {
+.welcome-header{
+  margin: 90px 0px;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:center;
+}
+.welcome-header__title{
+   margin-bottom: 20px;
+   font-size: 25px;
+
+}
+.welcome-header__text{
+
+  width: 40%;
+  opacity: 0.7;
 }
 
-.status-bar__column:first-child span {
-  margin-right: 5px;
-}
