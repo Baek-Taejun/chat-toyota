@@ -4,6 +4,7 @@
 
 /* components */
 @import "status-bar.css";
+@import "nav-bar.css";
 /* screens */
 @import "login.css";
 
@@ -11,6 +12,7 @@
  
 body {
   font-family: "Open Sans", sans-serif;
+  
 }
 
 .welcome-header{
