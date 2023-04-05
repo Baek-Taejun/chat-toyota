@@ -6,11 +6,14 @@
 @import "status-bar.css";
 @import "screen-header.css";
 @import "nav-bar.css";
+@import "user-component.css";
 
-/* screens */
+
 
 @import "login.css";
-@import "friends.css";  
+@import "friends.css";
+
+
 
 
   
@@ -19,21 +22,4 @@ body {
   color: #2F363E;
 }
 
-.welcome-header{
-  margin: 90px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-}
-.welcome-header__title{
-   margin-bottom: 20px;
-   font-size: 25px;
-
-}
-.welcome-header__text{
-
-  width: 40%;
-  opacity: 0.7;
-}
 
