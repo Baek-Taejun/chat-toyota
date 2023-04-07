@@ -22,15 +22,7 @@
 }
 
 .nav__notification{
-    background-color: tomato;
-    width: 30px;s
-    height: 30px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
+  
     position: absolute;
     left: 15px;
     bottom:  15px;
@@ -49,6 +41,6 @@
     color: white;
     font-weight: 600;
     position: absolute;
-    left: 25px;
-    bottom: 25px;
+    left: 0px;
+    bottom: 0px;
 }

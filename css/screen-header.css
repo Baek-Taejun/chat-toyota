@@ -1,15 +1,35 @@
 .screen-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(-horizontal-space);
-  }
- 
-.screen-header__title{
-    font-size: 32px;
-    font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .screen-header__icons span {
-    margin-left: 25px;
+  margin-left: 25px;
+  position: relative;
+  
+ 
+
+}
+
+.screen-header__dot{
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 70px;
+  bottom: 25px;
 }

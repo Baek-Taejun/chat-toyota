@@ -48,7 +48,16 @@
   font-weight: 400;
 }
 
-.friends-screen__channel{
-  margin-top: 25px; 
 
+.user-component__column:last-child{
+  color: rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }

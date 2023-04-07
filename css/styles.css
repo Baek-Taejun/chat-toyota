@@ -7,9 +7,9 @@
 @import "screen-header.css";
 @import "nav-bar.css";
 @import "user-component.css";
+@import "badge.css";
 
-
-
+/*Screen*/
 @import "login.css";
 @import "friends.css";
 
@@ -20,6 +20,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #2F363E;
+}
+
+.main-screen{
+  padding: 0px var(--horizontal-space);
 }
 
 
