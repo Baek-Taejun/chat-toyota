@@ -6,7 +6,7 @@
     padding: 20px 50px;
     box-sizing: border-box;
     border-top: 1px solid rgba(121, 121, 121, 0.2)
- 
+
 }
 
 
@@ -22,9 +22,6 @@
 }
 
 .nav__notification{
-<<<<<<< Updated upstream
-  
-=======
     background-color: tomato;
     width: 30px;
     height: 30px;
@@ -34,7 +31,6 @@
     align-items: center;
     color: white;
     font-weight: 600;
->>>>>>> Stashed changes
     position: absolute;
     left: 15px;
     bottom:  15px;

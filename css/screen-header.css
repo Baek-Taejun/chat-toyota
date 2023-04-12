@@ -2,16 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< Updated upstream
   padding: var(--horizontal-space);
   margin-bottom: 15px;
-<<<<<<< HEAD
-=======
   padding: 25px;
->>>>>>> Stashed changes
-=======
-
->>>>>>> 126901fbf0333fe5df8023539e1e04d7e9c1de2c
 }
 
 .screen-header__title {
@@ -21,11 +14,7 @@
 
 .screen-header__icons span {
   margin-left: 25px;
-<<<<<<< Updated upstream
   position: relative;
-  
- 
-
 }
 
 .screen-header__dot{

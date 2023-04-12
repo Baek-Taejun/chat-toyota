@@ -10,15 +10,15 @@
 .recommended-friends__title {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
-  }
+}
 
 
 .recommended-friends span {
-  margin: 100px 0;
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
+    margin: 100px 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -70,10 +70,10 @@
 }
 
 .open-post__members .divider{
-     width: 2px;
-     height: 15px;
-     margin:  0 5px;
-     background-color:  rgba(0, 0, 0, 0.2);
+        width: 2px;
+        height: 15px;
+        margin:  0 5px;
+        background-color:  rgba(0, 0, 0, 0.2);
 }
 
 .open-post__member-status{
@@ -102,7 +102,6 @@
     bottom:10px;
     right: 10px;
     font-size: 12px;
-     
 }
 
 .open-post__heart-count span{
