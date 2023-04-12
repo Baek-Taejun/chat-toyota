@@ -8,7 +8,7 @@
 .user-component__column:first-child{
   display: flex ;
   align-items: center;
-   
+  margin-right:30px;
 }
 
 
