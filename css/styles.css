@@ -10,6 +10,7 @@
 @import "badge.css";
 @import "icon-row.css";
 @import "alt-screen-header.css";
+@import "no-mobile.css";
 
 /*Screen*/ 
 @import "login.css";
