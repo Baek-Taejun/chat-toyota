@@ -5,6 +5,8 @@
   padding: var(--horizontal-space);
   margin-bottom: 15px;
   padding: 25px;
+  background-color: #EC0B1E;
+  color: white;
 }
 
 .screen-header__title {
