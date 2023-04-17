@@ -37,7 +37,8 @@
 .open-post{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
+    height: 30vh;
 }
 
 .open-post__title{
