@@ -2,13 +2,14 @@
     position: absolute;
     z-index: 99;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: #EC0B1E;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
     top: 0;
+    color: white;
 }
 
 
