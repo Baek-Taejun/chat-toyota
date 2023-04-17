@@ -5,15 +5,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chat w/Taejun - Kakao Talk</title>
+  <script src="index.js"></script>
+
 </head>
 <body id="chat-screen">
   <div class="status-bar">
     <div class="status-bar__column">
-      <span>No Service</span>
+      <span>サービス</span>
       <i class="fas fa-wifi"></i>
     </div>
     <div class="status-bar__column">
-      <span>18:53</span>
+      <span id="current-time"></span>
     </div>
     <div class="status-bar__column">
       <span>100%</span>
@@ -29,7 +31,7 @@
     </a>
     </div>
     <div class="alt-header__column">
-        <h1 class="alt-header__title">Taejun</h1>
+        <h1 class="alt-header__title">ペク</h1>
     </div>
     <div class="alt-header__column">
         <span><i class="fas fa-search fa-2x"></i></span>
@@ -40,14 +42,14 @@
   <main class="main-screen main-chat">
 
     <div class="chat__timestamp">
-      Tuesday, June 30, 2023
+      2023年6月30日火曜日
     </div>
     <div class="message-row">
-      <img src="https://avatars.githubusercontent.com/u/126327414">
+      <img src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG-F-nDLqEUXBD-TbDrpbNCSbG6ovhKFMMJMGXakz4NBXShtelAXGLOfLAGJCbUWTqGGjEzSFdyD3SDM5C-H_IBxg8jL5jYPRlMYgmUBqsuBUKRuSqMqzACO4FViJGJOSzpXO5rdzgyOgMDCeAKIr_pdYVXTT5_BiRdSWfoWP9ynIvyzuT65n1HivaCMeCXFrs0fuNqxf6qndE74VpqeQmPMgxipm3ZHxAsxOIhtckTFryOoCr2b4y8nmRHpwVepn14z0-kdKhTK1vGzBC7f8wUA=/images.jpeg">
       <div class="message-row__content">
-        <span class="message__author">Taejun</span> 
+        <span class="message__author">ペク</span> 
         <div class="message__info">
-          <span class="message__bubble">Hi!</span>
+          <span class="message__bubble">ペクさんの納期は間に合いそうですか？</span>
           <span class="message__time">21:27</span>
         </div>
       </div>
@@ -57,7 +59,7 @@
       <div class="message-row message-row--own">
         <div class="message-row__content">
           <div class="message__info">
-            <span class="message__bubble">Hi nice to meet you</span>
+            <span class="message__bubble">はい、午後の会議前まで可能です。</span>
             <span class="message__time">21:27</span>
           </div>
         </div>

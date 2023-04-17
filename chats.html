@@ -5,15 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - Kakao Talk</title>
+    <script src="index.js"></script>
+
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>サービス</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:53</span>
+        <span id="current-time"></span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>  
@@ -27,11 +29,11 @@
 
 
         <header class = "screen-header">
-          <h1 class = "screen-header__title">Chats</h1>
+          <h1 class = "screen-header__title">チャット</h1>
           <div class = "screen-header__icons"> 
               <span><i class="fas fa-search fa-lg"></i></span>
               <span><i class="far fa-comment-dots fa-lg"></i></span>
-              <span><i class="fas fa-music fa-lg"></i></span>
+              <span><i class="fas fa-phone fa-lg"></i></span>
               <span><i class="fas fa-cog fa-lg"></i></span>
           </div>
         </header>
@@ -42,17 +44,17 @@
             <div class="user-component">
               <div class="user-component__column">
                 <img
-                  src="https://avatars.githubusercontent.com/u/126327414"
+                  src="screenshots/taejun.JPG"
                   class="user-component__avatar user-component__avatar"
                 />
                 <div class="user-component__text">
-                  <h4 class="user-component__title">Taejun</h4>
-                  <h6 class="user-component__subtitle">Please check My Kakao Account</h6>
+                  <h4 class="user-component__title">ペク</h4>
+                  <h6 class="user-component__subtitle">9月18日から23日まで出張予定</h6>
                 </div>
               </div>
               <div class="user-component__column">
                 <span class="user-component__time">21:22</span>
-                <span class = "badge">1</span>
+                <span class = "badge">17</span>
               </div>
             </div>
           </a>
