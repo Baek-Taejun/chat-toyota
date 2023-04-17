@@ -39,7 +39,7 @@
   }
   
   #login-form input[type="submit"]{
-    background-color: #EC0B1E;
+    background-color: blue;
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
